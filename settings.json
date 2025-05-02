@@ -1,0 +1,25 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.rulers": [
+        88
+    ],
+    "vim.startInInsertMode": true,
+    "cSpell.userWords": [
+        "Figliozzi"
+    ],
+    "git.allowNoVerifyCommit": true,
+    "terminal.integrated.scrollback": 2000,
+    "settingsSync.ignoredExtensions": [
+        "visualstudiotoolsforunity.vstuc"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+}
