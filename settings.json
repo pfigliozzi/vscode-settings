@@ -22,4 +22,13 @@
         "visualstudiotoolsforunity.vstuc"
     ],
     "diffEditor.ignoreTrimWhitespace": false,
+    // For Windows, allow the use of Ctrl.
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+    },
+}
 }
