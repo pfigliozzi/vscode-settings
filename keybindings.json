@@ -56,6 +56,12 @@
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
     },
+    // This is a placeholder ot allow visual block mode in windows.
+    // {
+        // "key": "space v",
+        // "command": "vim.",
+        // "when": "vim.mode == 'Normal' && editorTextFocus",
+    // },
     
     // Some key bindings I am not sure about.
     {
@@ -145,17 +151,17 @@
     {
         "key": "space h",
         "command": "workbench.action.compareEditor.focusOtherSide",
-        "when": "vim.mode == 'Normal' && textCompareEditorActive"
+        "when": "vim.mode == 'Normal' && editorTextFocus && textCompareEditorActive"
     },
     {
         "key": "space s",
         "command": "git.stageSelectedRanges",
-        "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine' || vim.mode == 'VisualBlock') && textCompareEditorActive"
+        "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine' || vim.mode == 'VisualBlock') && textCompareEditorActive && editorTextFocus"
     },
     {
         "key": "space u",
         "command": "git.unstageSelectedRanges",
-        "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine' || vim.mode == 'VisualBlock') && textCompareEditorActive"
+        "when": "(vim.mode == 'Visual' || vim.mode == 'VisualLine' || vim.mode == 'VisualBlock') && textCompareEditorActive && editorTextFocus"
     },
     // Terminal Navigation
     {
